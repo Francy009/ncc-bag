@@ -3,7 +3,7 @@ import "./Footer.css"
 
 export function Footer() {
     return (
-            <footer className="footer" style={{backgroundColor: "black"}}>
+            <footer className="footer" style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}>
                 <div className="container">
                     <section>
                         <div className="row text-center d-flex justify-content-center pt-5">
@@ -30,8 +30,7 @@ export function Footer() {
                         </div>
                     </section>
                     <div
-                        className="text-center p-3"
-                        style={{background: "rgba(0, 0, 0, 0.2)"}}>
+                        className="text-center p-3">
                         © 2020 Copyright
                     </div>
                 </div>
