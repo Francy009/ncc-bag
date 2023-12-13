@@ -1,5 +1,7 @@
 
 import React from "react";
+import {Link} from "react-router-dom";
+
 export function NavBar(){
     return(
         <nav className="navbar navbar-expand-lg navbar-black bg-black"  >
@@ -11,14 +13,13 @@ export function NavBar(){
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item" >
-                            <a className="nav-link active text-white" aria-current="page" href="#"  style={{ fontFamily:  "fantasy"}}  >HOME</a>
+                            <Link to="/" className="nav-link active text-white" aria-current="page" href="#"  style={{ fontFamily:  "fantasy"}}  >HOME</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#" style={{ fontFamily:  "fantasy"}} >CHI SIAMO</a>
                         </li>
                         <li className="nav-item">
-
-                            <a className="nav-link text-white" href="#" style={{ fontFamily:  "fantasy"}}>PARCO AUTO</a>
+                            <Link to="/parco-auto" className="nav-link text-white" href="#" style={{ fontFamily:  "fantasy"}}>PARCO AUTO</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#" style={{ fontFamily:  "fantasy"}}>CONTATTACI</a>
