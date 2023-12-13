@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "nomeVeicolo": "Mercedes 9 posti",
+      "immagine": "/classeV.jpg"
+    },
+    {
+      "id": 2,
+      "nomeVeicolo": "Mercedes classe E",
+      "immagine": "/classeE.jpg"
+    },
+    {
+      "id": 3,
+      "nomeVeicolo": "Ambulanza",
+      "immagine": "/ambulanza.jpg"
+    }
+]

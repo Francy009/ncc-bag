@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css"
+import {Link} from "react-router-dom";
+
 
 export function Footer() {
     return (
@@ -9,7 +11,7 @@ export function Footer() {
                         <div className="row text-center d-flex justify-content-center pt-5">
                             <div className="col-md-2">
                                 <h6 className="text-uppercase font-weight-bold">
-                                    <a href="#!" className="text-white">HOME</a>
+                                    <Link to="/" className="text-white">HOME</Link>
                                 </h6>
                             </div>
                             <div className="col-md-2">
@@ -19,7 +21,7 @@ export function Footer() {
                             </div>
                             <div className="col-md-2">
                                 <h6 className="text-uppercase font-weight-bold">
-                                    <a href="#!" className="text-white">PARCO AUTO</a>
+                                    <Link to="/parco-auto" className="text-white">PARCO AUTO</Link>
                                 </h6>
                             </div>
                             <div className="col-md-2">

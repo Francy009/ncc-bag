@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     padding: 20px;
     background-image: url("../../public/car.jpg");
-    overflow: hidden;
+    overflow: auto;
 }
 
 .services, .booking, .about-us, .contact {
